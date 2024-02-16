@@ -1,0 +1,10 @@
+import tkinter as tk
+root =tk.Tk()
+root.geometry("800x500")
+label1=tk.Label(root, text="Label 1")
+label2=tk.Label(root, text="Label 2")
+label3=tk.Label(root, text="Label 3")
+label1.pack()
+label2.pack()
+label3.pack()
+root.mainloop()
